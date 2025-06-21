@@ -45,9 +45,9 @@ const Projects = () => {
             <div className="about-right">
               <h2>Who I Am</h2>
               <p>
-                 I’m Gwen, the developer behind Sunscript, with roots as a front-end engineer and two years of full-stack experience.
-                   I specialize in crafting responsive web interfaces and reliable back-end systems, blending intuitive design with solid architecture.
-                    Whether it’s a custom CMS, API-driven app, or data pipeline, I deliver clean code and seamless user experiences for small and medium-sized businesses.
+                I’m Gwen, the developer behind Sunscript, with roots as a front-end engineer and two years of full-stack experience.
+                I specialize in crafting responsive web interfaces and reliable back-end systems, blending intuitive design with solid architecture.
+                Whether it’s a custom CMS, API-driven app, or data pipeline, I deliver clean code and seamless user experiences for small and medium-sized businesses.
               </p>
               <p>
                 I bring two years of experience building responsive,
@@ -64,33 +64,28 @@ const Projects = () => {
           </div>
         </section>
 
-        {/* Mission Section */}
-        <section className="mission-section">
-          <h2>My Mission</h2>
-          <p>
-            To build inclusive, meaningful software that solves real-world
-            problems and helps people live better, more connected lives.
-          </p>
-          <div className="values-list">
-            <div className="value-item">
-              <h3>Creativity</h3>
-              <p>
-                Turning ideas into sleek, interactive interfaces and bold
-                designs.
-              </p>
+              {/* Mission Section */}
+              <section class="mission-section">
+                <h2>My Mission</h2>
+                <p>
+                My mission is to empower small and medium-sized businesses with dynamic web and app experiences—seamless transitions,
+                intuitive design, and rock-solid performance; so they can engage users and drive real growth.
+                </p>
+                <div class="values-list">
+              <div class="value-item">
+                <h3>Scalability</h3>
+                <p>Architecting front-end and back-end components that grow seamlessly under load.</p>
+              </div>
+              <div class="value-item">
+                <h3>Security</h3>
+                <p>Enforcing secure coding, encrypted data flows, and robust authentication methods.</p>
+              </div>
+              <div class="value-item">
+                <h3>Automation</h3>
+                <p>Streamlining builds, deployments, and testing with CI/CD pipelines and Infrastructure as Code.</p>
+              </div>
             </div>
-            <div className="value-item">
-              <h3>Precision</h3>
-              <p>Code that’s clean, scalable, and engineered for long-term use.</p>
-            </div>
-            <div className="value-item">
-              <h3>Growth</h3>
-              <p>
-                Constantly learning, exploring new tech, and evolving my craft.
-              </p>
-            </div>
-          </div>
-        </section>
+          </section>
 
         {/* Technologies Section */}
         <section className="skills-section">

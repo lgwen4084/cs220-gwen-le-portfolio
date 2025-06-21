@@ -27,11 +27,11 @@ const Home = () => {
               I’m <span className="highlight">Sunscript</span>
             </motion.h3>
             <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.7 }}>
-              I’m a software engineer with a passion for turning creative ideas into smart,
-              <br />
-              user-friendly digital experiences. I blend technical skill with an eye for design,
-              <br />
-              building websites and apps and systems that don’t just function—they delight.
+              I’m a software engineer who bridges design and development,
+              crafting responsive web apps and scalable back-end services.
+              I specialize in clean, component-driven code and intuitive interfaces that solve real user needs.
+              From dynamic UIs to robust APIs, I build systems that perform flawlessly and feel effortless.
+              I am building websites and apps and systems that don’t just function—they delight.
             </motion.p>
             <motion.div
               className="hero-buttons"
@@ -100,55 +100,130 @@ const Home = () => {
               We Believe That<br />Good Design Changes<br />The World
             </h3>
             <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page looking at its layout.
+            Grounded in atomic design and component-driven architecture, we leverage semantic HTML, CSS variables, ARIA roles, and optimized build pipelines to deliver accessible, high-performance interfaces at scale.
             </p>
             <a href="services.html" className="read-more-btn">Read More</a>
           </motion.div>
         </motion.section>
 
-        {/* Projects Section */}
-        <section id="projects" className="projects-section">
-          <h2>Take A Look At My Recent Projects</h2>
-          <div className="project-grid">
+      {/* Projects Section */}
+      <section id="projects" className="projects-section">
+        <h2>Take A Look At My Recent Projects</h2>
+        <div className="project-grid">
+          <a
+            href="https://becomesolid.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Become Solid (opens in new tab)"
+          >
             <div className="project-card">
-              <div className="project-image" role="img" aria-label="Become Solid">
+              <div
+                className="project-image"
+                role="img"
+                aria-label="Become Solid Project Preview"
+              >
                 <img src={`${PUBLIC}/images/example.png`} alt="Become Solid" />
               </div>
               <h3>Become Solid</h3>
             </div>
+          </a>
+
+          <a
+            href="https://solasepickleball.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Solase Pickleball (opens in new tab)"
+          >
             <div className="project-card">
-              <div className="project-image" role="img" aria-label="Solare Skateball">
-                <img src={`${PUBLIC}/images/example2.png`} alt="Solare Skateball" />
+              <div
+                className="project-image"
+                role="img"
+                aria-label="Solase Pickleball Project Preview"
+              >
+                <img src={`${PUBLIC}/images/example2.png`} alt="Solase Pickleball" />
               </div>
-              <h3>Solare Skateball</h3>
+              <h3>Solase Pickleball</h3>
             </div>
+          </a>
+
+          <a
+            href="https://www.devosoutdoor.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Devos Outdoors (opens in new tab)"
+          >
             <div className="project-card">
-              <div className="project-image" role="img" aria-label="Devos Outdoors">
+              <div
+                className="project-image"
+                role="img"
+                aria-label="Devos Outdoors Project Preview"
+              >
                 <img src={`${PUBLIC}/images/example3.png`} alt="Devos Outdoors" />
               </div>
               <h3>Devos Outdoors</h3>
             </div>
+          </a>
+
+          <a
+            href="https://odrskis.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="ODR Skis (opens in new tab)"
+          >
             <div className="project-card">
-              <div className="project-image" role="img" aria-label="Odr This">
-                <img src={`${PUBLIC}/images/example4.png`} alt="Odr This" />
+              <div
+                className="project-image"
+                role="img"
+                aria-label="ODR Skis Project Preview"
+              >
+                <img src={`${PUBLIC}/images/example4.png`} alt="ODR Skis" />
               </div>
-              <h3>Odr This</h3>
+              <h3>ODR Skis</h3>
             </div>
+          </a>
+
+          <a
+            href="https://theoceancleanup.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="The Ocean Cleanup (opens in new tab)"
+          >
             <div className="project-card">
-              <div className="project-image" role="img" aria-label="Tide Ocean">
-                <img src={`${PUBLIC}/images/example5.webp`} alt="Tide Ocean" />
+              <div
+                className="project-image"
+                role="img"
+                aria-label="The Ocean Cleanup Project Preview"
+              >
+                <img src={`${PUBLIC}/images/example5.webp`} alt="The Ocean Cleanup" />
               </div>
-              <h3>Tide Ocean</h3>
+              <h3>The Ocean Cleanup</h3>
             </div>
+          </a>
+
+          <a
+            href="https://barbellapparel.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Barbell Apparel (opens in new tab)"
+          >
             <div className="project-card">
-              <div className="project-image" role="img" aria-label="Barbell Apparel">
+              <div
+                className="project-image"
+                role="img"
+                aria-label="Barbell Apparel Project Preview"
+              >
                 <img src={`${PUBLIC}/images/example6.png`} alt="Barbell Apparel" />
               </div>
               <h3>Barbell Apparel</h3>
             </div>
-          </div>
-          <a href="#projects" className="btn-primary">View All Works</a>
-        </section>
+          </a>
+        </div>
+
+        <a href="#projects" className="btn-primary">
+          View All Works
+        </a>
+      </section>
+
 
         {/* Services Section */}
         <section id="services" className="services-section">

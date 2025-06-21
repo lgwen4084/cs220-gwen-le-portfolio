@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-left">
           <h3>SUNSCRIPT</h3>
           <p>
-            Denis Potter Mayes, elementum at iaculis elit neque, vel eros dui dolorput, erat vulputate pulvinar, erat erat facilisis. Quam accumsan felis.
+            Contact us for a killer website that stands out in the digital world.
           </p>
           <div className="newsletter">
             <h4>Our Newsletter</h4>
