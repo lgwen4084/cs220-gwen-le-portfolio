@@ -45,11 +45,9 @@ const Projects = () => {
             <div className="about-right">
               <h2>Who I Am</h2>
               <p>
-                I’m Rubens, the developer behind Sunscript. My journey into tech
-                started through acoustical engineering, where I learned the power
-                of precision and analysis. Later, I transitioned into full-stack
-                development, blending creativity and problem-solving into digital
-                products.
+                 I’m Gwen, the developer behind Sunscript, with roots as a front-end engineer and two years of full-stack experience.
+                   I specialize in crafting responsive web interfaces and reliable back-end systems, blending intuitive design with solid architecture.
+                    Whether it’s a custom CMS, API-driven app, or data pipeline, I deliver clean code and seamless user experiences for small and medium-sized businesses.
               </p>
               <p>
                 I bring two years of experience building responsive,
