@@ -1,3 +1,4 @@
+// src/home.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import Header from './header';
@@ -14,7 +15,7 @@ const Home = () => {
           className="hero"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           <div className="hero-content">
             <motion.h1
@@ -24,25 +25,24 @@ const Home = () => {
             >
               Hello!
             </motion.h1>
-
             <motion.h3
               initial={{ x: -50, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              I'm <span className="highlight">Sunscript</span>
+              I’m <span className="highlight">Sunscript</span>
             </motion.h3>
-
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
             >
-              I’m a software engineer with a passion for turning creative ideas into smart,<br />
-              user-friendly digital experiences. I blend technical skill with an eye for design,<br />
+              I’m a software engineer with a passion for turning creative ideas into smart,
+              <br />
+              user-friendly digital experiences. I blend technical skill with an eye for design,
+              <br />
               building websites and apps and systems that don’t just function—they delight.
             </motion.p>
-
             <motion.div
               className="hero-buttons"
               initial={{ opacity: 0, y: 30 }}
@@ -52,7 +52,6 @@ const Home = () => {
               <a href="#projects" className="btn-primary">View Projects</a>
               <a href="resume.pdf" className="btn-secondary" download>Download Resume</a>
             </motion.div>
-
             <motion.div
               className="social-icons"
               initial={{ opacity: 0 }}
@@ -60,13 +59,13 @@ const Home = () => {
               transition={{ delay: 1.1 }}
             >
               <a href="https://instagram.com" aria-label="Instagram">
-                <img src="./images/instagram.png" alt="Instagram" />
+                <img src="/images/instagram.png" alt="Instagram" />
               </a>
               <a href="https://facebook.com" aria-label="Facebook">
-                <img src="./images/facebook.png" alt="Facebook" />
+                <img src="/images/facebook.png" alt="Facebook" />
               </a>
               <a href="https://twitter.com" aria-label="Twitter">
-                <img src="./images/twitter.png" alt="Twitter" />
+                <img src="/images/twitter.png" alt="Twitter" />
               </a>
               <a href="https://pinterest.com" aria-label="Pinterest">
                 <img src="/images/pinterest.png" alt="Pinterest" />
@@ -83,7 +82,7 @@ const Home = () => {
             animate={{ scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <div className="sun-core"></div>
+            <div className="sun-core" />
           </motion.div>
         </motion.div>
 
@@ -104,9 +103,8 @@ const Home = () => {
             >
               Check My Skills And<br />Using Source
             </motion.h2>
-
             <div className="skills-icons">
-            <div className="skills-row">
+              <div className="skills-row">
                 <img src="/images/figma.svg" alt="Figma" />
                 <img src="/images/ps.svg" alt="Photoshop" />
                 <img src="/images/python.svg" alt="Python" />
@@ -114,15 +112,14 @@ const Home = () => {
                 <img src="/images/c_plus.png" alt="C++" />
               </div>
               <div className="skills-row-2">
-                <img src="./images/jsx.svg" alt="JSX" />
-                <img src="./images/php.svg" alt="PHP" />
-                <img src="./images/css.svg" alt="CSS" />
+                <img src="/images/jsx.svg" alt="JSX" />
+                <img src="/images/php.svg" alt="PHP" />
+                <img src="/images/css.svg" alt="CSS" />
                 <img src="/images/react.svg" alt="React" />
                 <img src="/images/vue.svg" alt="Vue" />
               </div>
             </div>
           </div>
-
           <motion.div
             className="skills-right"
             initial={{ x: 30, opacity: 0 }}
@@ -145,38 +142,37 @@ const Home = () => {
           <div className="project-grid">
             <div className="project-card">
               <div className="project-image" role="img" aria-label="Become Solid Project Preview">
-                <img src="/images/example.png" alt="" />
+                <img src="/images/example.png" alt="Become Solid" />
               </div>
               <h3>Become Solid</h3>
             </div>
             <div className="project-card">
               <div className="project-image" role="img" aria-label="Solare Skateball Project Preview">
-                <img src="/images/example2.png" alt="" />
+                <img src="/images/example2.png" alt="Solare Skateball" />
               </div>
               <h3>Solare Skateball</h3>
             </div>
             <div className="project-card">
               <div className="project-image" role="img" aria-label="Devos Outdoors Project Preview">
-                <img src="/images/example3.png" alt=""/>
+                <img src="/images/example3.png" alt="Devos Outdoors" />
               </div>
               <h3>Devos Outdoors</h3>
             </div>
-
             <div className="project-card">
               <div className="project-image" role="img" aria-label="Odr This Project Preview">
-                <img src="/images/example4.png" alt=""/>
+                <img src="/images/example4.png" alt="Odr This" />
               </div>
               <h3>Odr This</h3>
             </div>
             <div className="project-card">
               <div className="project-image" role="img" aria-label="Tide Ocean Project Preview">
-                <img src="/images/example5.webp" alt="" />
+                <img src="/images/example5.webp" alt="Tide Ocean" />
               </div>
               <h3>Tide Ocean</h3>
             </div>
             <div className="project-card">
               <div className="project-image" role="img" aria-label="Barbell Apparel Project Preview">
-                <img src="/images/example6.png" alt="" />
+                <img src="/images/example6.png" alt="Barbell Apparel" />
               </div>
               <h3>Barbell Apparel</h3>
             </div>
@@ -189,21 +185,40 @@ const Home = () => {
           <h2>Services I Offer</h2>
           <div className="services-layout">
             <div className="services-list">
-              <div className="service-item"><span className="category">DEVELOPMENT</span><br /><span className="title">WEBSITES</span></div>
-              <div className="service-item"><span className="category">DEVELOPMENT</span><br /><span className="title">DATA ANALYTICS</span></div>
-              <div className="service-item"><span className="category-green">ARTWORK</span><br /><span className="title-green">BRANDINGS</span></div>
-              <div className="service-item"><span className="category">DEVELOPMENT</span><br /><span className="title">UX/UI DESIGN</span></div>
-              <div className="service-item"><span className="category">DEVELOPMENT</span><br /><span className="title">APP DEVELOPMENT</span></div>
+              <div className="service-item">
+                <span className="category">DEVELOPMENT</span><br />
+                <span className="title">WEBSITES</span>
+              </div>
+              <div className="service-item">
+                <span className="category">DEVELOPMENT</span><br />
+                <span className="title">DATA ANALYTICS</span>
+              </div>
+              <div className="service-item">
+                <span className="category-green">ARTWORK</span><br />
+                <span className="title-green">BRANDINGS</span>
+              </div>
+              <div className="service-item">
+                <span className="category">DEVELOPMENT</span><br />
+                <span className="title">UX/UI DESIGN</span>
+              </div>
+              <div className="service-item">
+                <span className="category">DEVELOPMENT</span><br />
+                <span className="title">APP DEVELOPMENT</span>
+              </div>
             </div>
             <div className="services-visual">
               <div className="tile large">
-                <img src="/images/gallery-1.jpg" alt="Gallery"/> </div>
+                <img src="/images/gallery-1.jpg" alt="Gallery 1" />
+              </div>
               <div className="tile small top">
-                <img src="/images/gallery-2.jpg" alt="Gallery"/> </div>
+                <img src="/images/gallery-2.jpg" alt="Gallery 2" />
+              </div>
               <div className="tile small bottom">
-                <img src="/images/gallery-3.jpg" alt="Gallery"/> </div>
+                <img src="/images/gallery-3.jpg" alt="Gallery 3" />
+              </div>
               <div className="tile medium">
-                <img src="/images/gallery-4.jpg" alt="Gallery"/> </div>
+                <img src="/images/gallery-4.jpg" alt="Gallery 4" />
+              </div>
             </div>
           </div>
         </section>
@@ -218,22 +233,24 @@ const Home = () => {
             <div className="about-right">
               <p>
                 Software Engineer with 2 years of experience in full-stack web development and embedded software.
-                Graduated in Acoustical Engineering, with a solid foundation in logic and problem-solving. In addition to professional courses, I am currently pursuing a degree in Computer Science.
-                I love learning new things and am passionate about technology and creative solutions to solve real-world problems.
+                Graduated in Acoustical Engineering, with a solid foundation in logic and problem-solving. In
+                addition to professional courses, I am currently pursuing a degree in Computer Science. I love
+                learning new things and am passionate about technology and creative solutions to solve real-world problems.
               </p>
             </div>
           </div>
         </section>
 
-        <section id="expertise" className="expertise-section">
-          <div className="container">
-            <div className="expertise-wrapper">
-              <div className="expertise-left">
-                <h2><span>What</span> I Do Best?</h2>
-              </div>
+        {/* Expertise Section */}
+        <section id="expertise" className="expertise-section">  
+          <div className="container">  
+            <div className="expertise-wrapper">  
+              <div className="expertise-left">  
+                <h2><span>What</span> I Do Best?</h2>  
+              </div>  
               <div className="expertise-right">
                 <div className="expertise-featured">
-                  <img src="/images/icon-branding.png" alt="Icon" />
+                  <img src="/images/icon-branding.png" alt="Branding Icon" />
                   <div className="expertise-text">
                     <h3>Branding And Identity Development</h3>
                     <p>
@@ -259,9 +276,9 @@ const Home = () => {
                   <img src="/images/icon-social.png" alt="Social Media Icon" />
                   <h4>Social Media Management</h4>
                 </div>
-              </div>
-            </div>
-          </div>
+              </div>  
+            </div>  
+          </div>  
         </section>
 
         {/* Contact Section */}
@@ -272,44 +289,22 @@ const Home = () => {
         </section>
 
         {/* Get In Touch */}
-        <section className="get-in-touch get-in-touch-hero">
+        <section
+          className="get-in-touch get-in-touch-hero"
+          style={{
+            background: "url('/images/get-in-touch-bg.jpg') no-repeat center center/cover",
+            color: '#fff',
+            padding: '50px 20px',
+            textAlign: 'center'
+          }}
+        >
           <div className="hero-overlay">
             <div className="content">
-              <style jsx>{`
-                .get-in-touch {
-                  background: url('/images/get-in-touch-bg.jpg') no-repeat center center/cover;
-                  color: #fff;
-                  padding: 50px 20px;
-                  text-align: center;
-                }
-
-                .get-in-touch h2 {
-                  font-size: 50px;
-                  margin-bottom: 20px;
-                  font-family: var(--heading-font-2);
-                  font-weight: 400;
-                  animation: pulse 30s infinite ease-in-out;
-                  -webkit-animation: pulse 4s infinite ease-in-out;
-                }
-
-                @keyframes pulse {
-                  0% {
-                    transform: scale(1);
-                    opacity: 1;
-                  }
-                  50% {
-                    transform: scale(1.05);
-                    opacity: 0.7;
-                  }
-                  100% {
-                    transform: scale(1);
-                    opacity: 1;
-                  }
-                }
-              `}</style>
               <h2>Get In Touch With Me</h2>
               <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                It is a long established fact that a reader will be distracted by the readable content
+                of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                a more-or-less normal distribution of letters.
               </p>
               <form className="newsletter-form">
                 <label htmlFor="email">Email:</label>
