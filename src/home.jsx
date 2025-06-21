@@ -63,7 +63,7 @@ const Home = () => {
                 <img src="/images/instagram.png" alt="Instagram" />
               </a>
               <a href="https://facebook.com" aria-label="Facebook">
-                <img src="/images/facebook.png" alt="Facebook" />
+                <img src="./images/facebook.png" alt="Facebook" />
               </a>
               <a href="https://twitter.com" aria-label="Twitter">
                 <img src="/images/twitter.png" alt="Twitter" />
